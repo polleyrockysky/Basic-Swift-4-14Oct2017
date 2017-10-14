@@ -25,7 +25,7 @@ var num1: Int = 222
 print("Display on Terminal แสดงโคโค่บน Terminal")
 print("name ==> \(nameString)")
 print ("number ==> \(numberInt)")
-prin("number ==> \(numberInt) +110")
+print ("number ==> \(numberInt) +110")
 
 
 
