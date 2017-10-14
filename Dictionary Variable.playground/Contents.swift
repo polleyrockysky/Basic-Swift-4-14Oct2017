@@ -18,6 +18,25 @@ myDictionaryString["Key4"] = "Doremon"
 
 print("Key ==> Key4 Value ==> \(String(describing: myDictionaryString["key4"]))")
 
+//การหาจำนวนสมาชิกของตัวแปรพวก Dictionary
+
+print("จำนวนสมาชิก ==> \(myDictionaryString.count)")
+
+//การลบสมาชิก remove
+
+myDictionaryString.removeValue(forKey: "Key2")
+myDictionaryString
+
+
+
+
+
+
+
+
+
+
+
 
 
 
