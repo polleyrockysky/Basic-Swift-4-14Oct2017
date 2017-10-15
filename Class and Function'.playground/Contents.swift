@@ -20,6 +20,22 @@ class MyClass {
         let result = nameString + " " + Surname
         print("result =\(result)")
     }
+    
+    //การสร้าง Function Type Return
+    
+    func functionTypeReturn() -> Int {
+        return 100
+    }
+    
+    //Function Type Return Add Agreement
+    func calculateArea (baseInt: Int, height: Int) -> Double {
+        let baseDou = Double(base)
+        let heightDou = Double(height)
+        let result = 0.5 * baseDou * heightDou
+        
+        return result
+        
+    }
 
     
     
@@ -44,6 +60,14 @@ objectMyClass.fuctionTypeVoid()
 
 ////Call Function Type Void Add Agreement
 objectMyClass.functionVoidTypeAddAgreement(Surname: "Test")
+
+//Call Function Type Return
+var answerInt: Int = objectMyClass.myNumberInt + objectMyClass.functionTypeReturn()
+print("answerInt ==> \(answerInt)")
+
+//Call Function Type Return Add Agreement
+let areaDou: Double = objectMyClass.calculateArea(baseInt: 50, height: 25)
+print("พื้นที่สามเหลี่ยมที่ได้ ==> \(areaDou) ตารางเมตร")
 
 
 
